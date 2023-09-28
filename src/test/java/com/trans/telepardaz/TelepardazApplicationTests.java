@@ -93,9 +93,9 @@ class TelepardazApplicationTests {
     @Test
     public void givenMerchantList_whenFindAll() {
         PersonMerchant person = new PersonMerchant();
-        person.setName("arezo");
+        person.setName("zahra");
         person.setPhone("22209318");
-        person.setMobile("09920852138");
+        person.setMobile("09127022138");
         person.setEmail("maryam.ebrahimzade@gmail.com");
         person.setIban("IR520170000000110528698006");
         personMerchantRepository.save(person);
